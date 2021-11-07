@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+	background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: #fafafa;
+    text-transform: uppercase;
+    position: absolute;
+    left: 470px;
+    top: 55px;
+    color:#6495ED;
+    font-family: Verdana, sans-serif;
+
+
+
+}
+
+.container{
+    position: absolute;
+    border-radius: 25px;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    background: rgba(100, 149, 237, 0.4);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+    align-items: center;
+
+}
+.i{
+    color: #fafafa;
+}
+
+.container h2{
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.container img{
+    height: 120px;
+    width: 160px;
+    
+    
+}
+.container label{
+    text-align: left;
+    color: white;
+
+}
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: #fafafa;
+    font-size: 20px;
+
+
+
+}
+.container form button{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right,  #3C8DAD, #7FC8A9, #548CA8 );
+    background-size: 200%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    cursor: pointer;
+    
+}
+
+.container form button:hover{
+    background-position: right;
+
+
+}
